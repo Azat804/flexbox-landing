@@ -1,0 +1,15 @@
+.header {
+margin-bottom: 85px;
+}
+
+.header__navigation-list {
+  display:flex;
+  justify-content: space-between;
+}
+
+.header__navigation-link {
+  color:#FBFFFF;
+  display: flex;
+  align-items: center;
+  gap:0 10px;
+}
