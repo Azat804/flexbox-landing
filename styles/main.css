@@ -5,3 +5,59 @@
   background-size: cover;
   background-position: center;
 }
+
+.main-inner__title {
+  font-size: 48px;
+  color: #FFFFFF;
+  font-weight: 700;
+  line-height: 52px;/*межстрочный интервал*/
+  margin-bottom: 16px;
+  width: 430px;
+}
+
+.main-inner__title span {
+  font-weight: 400;
+}
+
+.main-inner__description {
+  font-size: 20px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-bottom: 42px;
+  width: 300px;
+}
+
+.main-inner__description span {
+  font-weight: 700;
+}
+
+.main-inner__button {
+  background-color: #FEAA01;
+  padding: 20px 42px;
+  font-weight: 700;
+  color:#FFFFFF;
+  margin-bottom: 74px;
+}
+
+.main-inner__advantages {
+  display: flex;
+  /*flex-wrap: wrap;*/
+  gap: 70px;
+}
+
+.advantages__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.advantages__inner-icon {
+  width: max-content;/*ужатие изображения до его реальных размеров*/
+  margin-bottom: 13px;
+}
+
+.advantages__inner-description {
+  font-size: 14px;
+  color: #FFFFFF;
+  font-weight: 400;
+  line-height: 14px;
+}
